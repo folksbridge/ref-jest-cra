@@ -1,0 +1,47 @@
+{
+  "name": "jest-cra",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-scripts": "2.0.4",
+    "redux": "^4.0.0",
+    "redux-actions": "^2.6.1"
+  },
+  "watch": {
+    "lint": "src/MyApp/**/*.js"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "node_modules/.bin/eslint --ext .js src/MyApp",
+    "hotlint": "npm-watch lint"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.24.1",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "npm-watch": "^0.4.0",
+    "react-test-renderer": "^16.5.2",
+    "watch": "^1.0.2"
+  }
+}
